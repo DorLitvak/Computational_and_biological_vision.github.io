@@ -146,61 +146,6 @@
 </section>
 
 
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline controls width="100%">
-        <source src="static/videos/teaser2.mp4" type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">3D Moments</span> turns a duplicate photo pair into space-time videos
-      </h2>
-    </div>
-  </div>
-</section>
-
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay playsinline controls muted loop height="100%">
-            <source src="static/videos/zoom-in_3988-0-1.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay playsinline controls muted loop height="100%">
-            <source src="static/videos/zoom-in_000357-0-1.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay playsinline controls muted loop height="100%">
-            <source src="static/videos/zoom-in_000301-0-1.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay playsinline controls muted loop width="100%">
-            <source src="static/videos/000654_up-down-0-1.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay playsinline controls muted loop width="100%">
-            <source src="static/videos/000204_side-0-1.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -209,7 +154,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-          We introduce 3D Moments, a new computational photography effect. As input we take a pair of near-duplicate photos, i.e., photos of moving subjects from similar viewpoints, common in people's photo collections. As output, we produce a video that smoothly interpolates the scene motion from the first photo to the second, while also producing camera motion with parallax that gives a heightened sense of 3D. To achieve this effect, we represent the scene as a pair of feature-based layered depth images augmented with scene flow. This representation enables motion interpolation along with independent control of the camera viewpoint. Our system produces photo-realistic space-time videos with motion parallax and scene dynamics, while plausibly recovering regions occluded in the original views. We conduct extensive experiments demonstrating superior performance over baselines on public datasets and in-the-wild photos.
+            Insert abstract here
           </p>
         </div>
       </div>
@@ -226,7 +171,7 @@
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
           <a id="overview_video"></a>
-          <iframe src="static/videos/overview_video.mp4" frameborder="0" autoplay="false" allowfullscreen sandbox ></iframe>
+          <iframe src="video_path.mp4" frameborder="0" autoplay="false" allowfullscreen sandbox ></iframe>
         </div>
       </div>
     </div>
@@ -241,86 +186,7 @@
   <div class="columns is-centered has-text-centered">
     <h2 class="title is-3"> More Results</h2>
 </div>
-<br>
 
-<div id="wrapper" style="text-align:center;"> 
-    <video autoplay controls muted loop playsinline id="result_video_side" height="400px" width="auto" > 
-        <source type="video/mp4" src="static/videos/2558_side-0-1.mp4" /> 
-    </video>
-
-    <video autoplay controls muted loop playsinline id="result_video_side"> 
-        <source type="video/mp4" src="static/videos/000654_side-0-1.mp4" /> 
-    </video>
-    <video  autoplay controls muted loop playsinline id="result_video_side"> 
-        <source type="video/mp4" src="static/videos/000242_side-0-1.mp4" /> 
-    </video>
-
-    <div class="clear"></div>
-Tracking camera motion (horizontal) 
-</div>
-
-<br>
-
-<div id="wrapper" style="text-align:center;  padding: 2em 0;"> 
-    <video  autoplay controls muted loop playsinline id="result_video_updown"> 
-        <source type="video/mp4" src="static/videos/000679_up-down-0-1.mp4" /> 
-    </video>
-
-    <video autoplay controls muted loop playsinline id="result_video_updown"> 
-        <source type="video/mp4" src="static/videos/5428_up-down-0-1.mp4" /> 
-    </video>
-
-    <video  autoplay controls muted loop playsinline id="result_video_updown"> 
-        <source type="video/mp4" src="static/videos/000350_up-down-0-1.mp4" /> 
-    </video>
-
-    <div class="clear"></div> 
-
-Tracking camera motion (vertical) 
-</div>
-
-<br>
-
-<div id="wrapper" style="text-align:center;"> 
-    <video  autoplay controls muted loop playsinline id="result_video_zooming"> 
-        <source type="video/mp4" src="static/videos/zoom-in_000204-0-1.mp4" /> 
-    </video>
-
-    <video autoplay controls muted loop playsinline id="result_video_zooming"> 
-        <source type="video/mp4" src="static/videos/zoom-in_0161-0-1.mp4" /> 
-    </video>
-
-    <video  autoplay controls muted loop playsinline id="result_video_zooming"> 
-        <source type="video/mp4" src="static/videos/zoom-in_000304-0-1.mp4" /> 
-    </video>
-
-    <div class="clear"></div> 
-
-Zooming-In camera motion 
-</div>
-</section>
-
-<br>
-<br>
-
-<section>
-    <div class="columns is-centered has-text-centered">
-      <h2 class="title is-3"> Failure Cases</h2>
-    </div>
-<br>
-    <div id="wrapper" style="text-align:center;"> 
-    <video  autoplay controls muted loop playsinline id="failure_video"> 
-        <source type="video/mp4" src="static/videos/failure1.mp4" /> 
-    </video>
-&nbsp;&nbsp;
-    <video  autoplay controls muted loop playsinline id="failure_video"> 
-        <source type="" /> 
-    </video>
-
-    <div class="clear"></div> 
-Our method cannot handle motions that are too large/challenging, and doesn't work well with incorrectly estimated monocular depths.
-
-</div>
 </section>
 
 
@@ -330,7 +196,7 @@ Our method cannot handle motions that are too large/challenging, and doesn't wor
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>
-@inproceedings{wang2022_3dmoments,
+@inproceedings{LALA,
   title     = {LALA},
   author    = {dd},
   booktitle = {CVPR},
